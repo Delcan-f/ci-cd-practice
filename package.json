@@ -1,0 +1,24 @@
+{
+  "name": "ci-cd-practice",
+  "version": "1.0.0",
+  "description": "Final class that includes steps practicing docker, test, github actions and deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delcan-f/ci-cd-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delcan-f/ci-cd-practice/issues"
+  },
+  "homepage": "https://github.com/Delcan-f/ci-cd-practice#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
