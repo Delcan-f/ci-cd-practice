@@ -19,7 +19,7 @@ jobs:
                 node-version: latest
 
             - name: Install Dependencies 
-              uses: npm install 
+              run: npm install 
 
             - name: Run Tests
               run: npm test
