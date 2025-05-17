@@ -1,0 +1,25 @@
+name: Run Tests
+
+on:
+    push:
+        branches: [main]
+    pull_request: 
+
+jobs: 
+    test:
+        run-on: ubuntu-latest
+
+        steps:
+            - name: Set-up Actions for our repository
+              uses: actions/checkout@v4.2.2
+
+            - name: Set-up Node.js
+              uses: actions/setup-node@4.4.0
+              with:
+                node-version: latest
+
+            - name: Install Dependencies 
+              uses: npm install 
+
+            - name: Run Tests
+              run: npm test
